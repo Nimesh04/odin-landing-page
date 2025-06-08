@@ -31,7 +31,7 @@ ul{
     margin-top: 58px;
     margin-bottom: 48px;
     display: flex;
-    gap: 24px;
+    gap: 28px;
 }
 
 .second-section h1{
@@ -44,8 +44,8 @@ ul{
 }
 
 .second-section button{
-    padding: 10px 20px;
-    border-radius: 12px;
+    padding: 10px 25px;
+    border-radius: 8px;
     background-color: #3882F6;
     color: white;
     border: none;
@@ -55,7 +55,7 @@ ul{
 }
 
 .img-placehoder{
-    width: 600px;
+    width: 900px;
     height: 200px;
     background-color: rgb(83, 83, 83);
     align-content: center;
@@ -65,8 +65,8 @@ ul{
 
 
 .third-section{
-    
     text-align: center;
+    padding: 25px 400px 50px;
 }
 .third-section h2{
     font-size: 36px;
@@ -77,8 +77,13 @@ ul{
 .container{
     display: flex;
     margin-top: 34px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
 }
 
+.container-items{
+    max-width: 150px;
+}
 
 .box{
     height: 150px;
@@ -88,19 +93,48 @@ ul{
 }
 
 .fourth-section{
-    padding: 24px 350px;
+    padding: 150px 450px;
     background-color: #E5E7EB;
 }
 
 
 .fifth-section{
-    padding: 24px 350px;
+    padding: 100px 350px;
 }
 
 .quote-section{
     font-size: 36px;
+    font-style: italic;
     color: #1F2937;
+
+}
+
+.quote{
+    text-align: end;
+    font-weight:900;
+    font-size: 24px;
+}
+
+.fifth-item{
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+    align-items: center;
+}
+
+
+.fifth-item button{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 5px 25px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
 }
 footer{
     text-align: center;
+    padding: 24px 450px;
 }
